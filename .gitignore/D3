@@ -1,0 +1,8 @@
+import numpy as np
+print('Day3 Homework')
+print()
+print('1.')
+print(np.log(20000)/np.log(10))
+print()
+print('2.')
+print(50/30)
