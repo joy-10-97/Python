@@ -1,0 +1,13 @@
+import numpy as np
+print('Day4 Homework')
+print()
+print('1.')
+english_score = np.array([55,89,76,65,48,70])
+math_score = np.array([60,85,60,68,55,60])
+ans_1 = np.greater([english_score],[math_score])
+print('有 ', np.sum(ans_1!=0), '人英文成績比數學成績高')
+print()
+print('2.')
+chinese_score = np.array([65, 90,82,72,66,77])
+ans_2 = np.greater([chinese_score],[[math_score],[english_score]])
+print(np.all(ans_2!=0))
