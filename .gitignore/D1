@@ -1,0 +1,12 @@
+import numpy as np
+print('Day1 Homework')
+print()
+print('1.')
+x = np.arange(21)
+print(np.arange(21))
+print()
+print('2.')
+print(x[::2])
+print()
+print('3.')
+print(x[3::3])
