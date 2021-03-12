@@ -1,0 +1,10 @@
+import numpy as np
+print('Day2 Homework')
+print()
+print('1.')
+array1 = np.array(range(30))
+array1.ravel(order='F')
+print(array1.reshape((5,6)))
+print()
+print('2.')
+print(np.where(array1 %6 == 1))
